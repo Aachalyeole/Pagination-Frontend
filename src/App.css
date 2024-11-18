@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th, td {
+  padding: 7px;
+  border: 1px solid #ddd;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pagination button.active {
+  background-color: #b8d2ee;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
